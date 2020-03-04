@@ -17,6 +17,8 @@ Download the [Example Blue Prism Package](ShmoopySoftBluePrismConfluentKafkaMess
 3. Select the 'ShmoopySoftBluePrismConfluentKafkaMessageExample.bprelease' Release Package
 4. Follow the Blue Prism import wizard to install the package
 
+Make sure that the Confluent.Kafka.dll library and required dependencies (librdkafka) are installed in the default Blue Prism installation folder, usually: C:\Program Files\Blue Prism Limited\Blue Prism Automate
+
 ### Running
 
 1. In Process Studio, open the process named 'Confluent Kafka Process'
